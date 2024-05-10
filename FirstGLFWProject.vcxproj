@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\glfw-3.4\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\glfw-3.4\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Dependancies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Dependancies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
