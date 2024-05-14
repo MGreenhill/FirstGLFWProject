@@ -21,5 +21,16 @@
     <ClCompile Include="FirstGLFWProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shader.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragmentShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\vertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
