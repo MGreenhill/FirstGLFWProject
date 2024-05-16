@@ -40,9 +40,9 @@ int main() {
 	//setup for vertex data, buffers, and configure vertex attributes
 	float vertices[] = {
 		 //positions         //colors
-		 -0.4f,  0.2f, 0.0f,  1.0f, 0.0f, 0.0f,  //bottom right
-		 -0.6f, -0.2f, 0.0f,  0.0f, 1.0f, 0.0f,  //bottom left
-		 -0.2f, -0.2f, 0.0f,  0.0f, 0.0f, 1.0f   //top
+		  0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  //bottom right
+		 -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  //bottom left
+		  0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   //top
 	};
 
 	//Create vertex buffer object and assign to GPU memory as static
