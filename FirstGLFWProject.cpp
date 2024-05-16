@@ -76,6 +76,7 @@ int main() {
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
+		ourShader.setFloat("xOffset", 0.9f);
 		//Activate shader
 		ourShader.use();
 
